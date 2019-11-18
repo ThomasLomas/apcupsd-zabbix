@@ -15,14 +15,13 @@ Other apcupsd images i've seen are for exporting monitoring data to grafana or p
 Very little configuration is currently required for this image to work, though you may be required to tweak the USB device that is passed through to your container by docker.
 
 <code>
-docker run -it \<br>
-  --name=apcupsd \<br>
-  -e TZ=Europe/London \<br>
-  --device=/dev/usb/<b>hiddev1</b><br>
-  -p=35521:3551<br>
+docker run -it 
+  --name=apcupsd 
+  -e TZ=Europe/London 
+  --device=/dev/usb/<b>hiddev1</b>
+  -p=35521:3551
   gregewing/apcupsd
 </code>
-<br>
 
 
 <b>Notes</b><br>
