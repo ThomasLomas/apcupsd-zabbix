@@ -19,10 +19,12 @@ docker run -it
   --name=apcupsd 
   -e TZ=Europe/London 
   --device=/dev/usb/<b>hiddev1</b>
-  -p=35521:3551
+  --restart unless-stopped
+  -p=3551:3551
   gregewing/apcupsd
 </code>
-
+<br>
+<br>
 
 <b>Notes</b><br>
 <ul type="disc">
