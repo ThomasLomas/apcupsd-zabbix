@@ -21,7 +21,7 @@ docker run -it
   --device=/dev/usb/<b>hiddev1</b>
   --restart unless-stopped
   -p=3551:3551
-  gregewing/apcupsd
+  gregewing/apcupsd:latest
 </code>
 <br>
 <br>
