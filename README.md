@@ -35,5 +35,5 @@ docker run -it
 
 <b>To Do</b><br>
 <ul type="disc">
-<li>Check whether or not the container has the capability to gracefully shut down the physical host if there is a prolonged power failure. I've seen a few other apcupsd images that seem to have this ability so I imagine its doable.</li>
+<li>Check whether or not the container has the capability to gracefully shut down the physical host if there is a prolonged power failure. I've seen a few other apcupsd images that seem to have this ability so I imagine it's doable.</li>
 </ul>
